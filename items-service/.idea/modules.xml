@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/items-service.iml" filepath="$PROJECT_DIR$/.idea/items-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/items-service.items-service.iml" filepath="$PROJECT_DIR$/.idea/modules/items-service.items-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/items-service.items-service.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/items-service.items-service.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/items-service.items-service.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/items-service.items-service.test~1.iml" />
     </modules>
   </component>
 </project>

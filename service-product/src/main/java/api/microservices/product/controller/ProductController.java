@@ -1,24 +1,27 @@
 package api.microservices.product.controller;
 
-
 import api.microservices.product.entity.Category;
 import api.microservices.product.entity.Product;
 import api.microservices.product.service.ProductService;
 import api.microservices.product.validation.EntityValidation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
 import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/products")
 public class ProductController {
+
+    @Value("${server.port}")
+    private Integer port;
 
     @Autowired
     private ProductService productService ;
@@ -42,13 +45,17 @@ public class ProductController {
 
     @GetMapping("/list")
     public List<Product> getList(){
-        return productService.listAllProduct();
+        return productService.listAllProduct().stream().map( product -> {
+            product.setPort(port);
+            return product;
+        }).collect(Collectors.toList());
     }
 
     @GetMapping(value="/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable("id") Long id){
         Product product = productService.getProduct(id);
-        return null == product ? ResponseEntity.noContent().build() : ResponseEntity.ok(product);
+        product.setPort(port);
+        return ResponseEntity.ok(product);
     }
 
     @PostMapping
