@@ -55,9 +55,14 @@ public class ProductController {
     public ResponseEntity<Product> getProduct(@PathVariable("id") Long id){
         Product product = productService.getProduct(id);
         product.setPort(port);
+        //throw new RuntimeException("Errror no se pudo obetener el producto");
 
-        throw new RuntimeException("Errror no se pudo obetener el producto");
-        //return ResponseEntity.ok(product);
+        /*try {
+            Thread.sleep(2000L);
+        }catch (InterruptedException exception){
+            exception.printStackTrace();
+        }*/
+        return ResponseEntity.ok(product);
     }
 
     @PostMapping
