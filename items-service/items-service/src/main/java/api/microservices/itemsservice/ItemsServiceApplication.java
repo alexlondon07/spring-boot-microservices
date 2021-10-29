@@ -8,8 +8,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableCircuitBreaker
 @EnableEurekaClient
-@SpringBootApplication
 @EnableFeignClients
+@SpringBootApplication
 public class ItemsServiceApplication {
 
 	public static void main(String[] args) {

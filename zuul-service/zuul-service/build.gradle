@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.5.2'
+	id 'org.springframework.boot' version '2.3.12.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -19,17 +19,18 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2020.0.4")
+	set('springCloudVersion', "Hoxton.SR12")
 }
 
 dependencies {
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.4'
-	// https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
-	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
+// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-zuul', version: '2.2.9.RELEASE'
 
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.4'
 	compileOnly 'org.projectlombok:lombok:1.18.22'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.5.5'
-	annotationProcessor 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok:1.18.22'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.5'
 }
 
