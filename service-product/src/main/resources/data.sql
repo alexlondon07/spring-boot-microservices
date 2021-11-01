@@ -11,4 +11,3 @@ VALUES (2, 'nIKE Cloudfoam Ultimate', '001', 'Walk in the air in the black / bla
 INSERT INTO tbl_products (id, name, code, description, stock,price,status, create_at,category_id)
 VALUES (3, 'PUMA Cloudfoam Ultimate', '001', 'Walk in the air in the black / black CLOUDFOAM ULTIMATE running shoe from PUMA',5,178.89,'CREATED','2021-09-05',1);
 
-PUMA
