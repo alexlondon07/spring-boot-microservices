@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/test/java/api/microservices/gatewayserverservice/GatewayServerServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/items-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../service-product/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../service-product/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-product/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../service-product/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
