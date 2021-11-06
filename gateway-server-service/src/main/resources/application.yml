@@ -1,17 +1,22 @@
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
 spring:
+  application:
+    name: gateway-server-service
   cloud:
     gateway:
       routes:
-      - id: service-product
-        uri: 'lb://service-product'
+      - id: productsModule
+        uri: lb://SERVICE-PRODUCT
         predicates:
-          - Path=/api/products/**
-        filters:
-          - StripPrefix=2
-      - id: items-service
-        uri: 'lb://items-service'
+          - Path=/products/**
+      - id: itemsModule
+        uri: lb://ITEMS-SERVICE
         predicates:
-          - Path=/api/items/**
-        filters:
-          - StripPrefix=2
-
+          - Path=/items/**
