@@ -3,9 +3,6 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/../../items-service/build/classes/java/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../items-service/build/generated/sources/annotationProcessor/java/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../items-service/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
-    </content>
     <content url="file://$MODULE_DIR$/../../items-service/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../items-service/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../items-service/src/main/resources" type="java-resource" />
