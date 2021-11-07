@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/java/api/microservices/gatewayserverservice/filters/GlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/java/api/microservices/gatewayserverservice/factory/ExampleGatewayFilterFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/java/api/microservices/gatewayserverservice/filters/GlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/java/api/microservices/gatewayserverservice/filters/ExampleGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

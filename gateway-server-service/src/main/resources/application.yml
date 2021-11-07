@@ -16,6 +16,8 @@ spring:
         uri: lb://SERVICE-PRODUCT
         predicates:
           - Path=/products/**
+        filters:
+          - ExampleCookie=Hello my custom message, Alexlondon07, user
       - id: itemsModule
         uri: lb://ITEMS-SERVICE
         predicates:
