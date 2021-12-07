@@ -13,9 +13,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="items-service.items-service" target="11" />
-      <module name="items-service.items-service.main" target="1.8" />
+      <module name="items-service.items-service.main" target="11" />
       <module name="items-service.items-service.main~1" target="11" />
-      <module name="items-service.items-service.test" target="1.8" />
+      <module name="items-service.items-service.test" target="11" />
       <module name="items-service.items-service.test~1" target="11" />
     </bytecodeTargetLevel>
   </component>

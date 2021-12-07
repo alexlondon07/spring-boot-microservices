@@ -22,3 +22,7 @@ spring:
         uri: lb://ITEMS-SERVICE
         predicates:
           - Path=/items/**
+        filters:
+          - AddRequestHeader=token-request, 123456
+          - AddResponseHeader=token-response, 12345678
+          - AddRequestParameter=name, Alexlondon07
