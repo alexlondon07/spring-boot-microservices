@@ -15,6 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @RestController
@@ -53,16 +54,17 @@ public class ProductController {
     }
 
     @GetMapping(value="/{id}")
-    public ResponseEntity<Product> getProduct(@PathVariable("id") Long id){
+    public ResponseEntity<Product> getProduct(@PathVariable("id") Long id) throws InterruptedException {
+
+        if(id.equals(10L)){
+            throw new IllegalStateException("Product no found");
+        }
+        if(id.equals(7L)){
+            TimeUnit.SECONDS.sleep(5L);
+        }
         Product product = productService.getProduct(id);
         product.setPort(port);
         //throw new RuntimeException("Errror no se pudo obetener el producto");
-
-        /*try {
-            Thread.sleep(2000L);
-        }catch (InterruptedException exception){
-            exception.printStackTrace();
-        }*/
         return ResponseEntity.ok(product);
     }
 

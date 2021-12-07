@@ -3,6 +3,8 @@ package api.microservices.itemsservice;
 import api.microservices.itemsservice.model.Item;
 import api.microservices.itemsservice.model.Product;
 import api.microservices.itemsservice.service.ItemService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.circuitbreaker.CircuitBreakerFactory;
@@ -15,6 +17,7 @@ import java.util.List;
 @RequestMapping(value = "/items")
 public class ItemController {
 
+    private final Logger logger = LoggerFactory.getLogger(ItemController.class);
     @Autowired
     private CircuitBreakerFactory circuitBreakerFactory;
 
@@ -34,11 +37,12 @@ public class ItemController {
     @GetMapping("/view/{id}/quantity/{quantity}")
     public Item getDetail(@PathVariable Long id, @PathVariable Integer quantity){
         return circuitBreakerFactory.create("items").run(
-                () -> itemService.findById(id, quantity), e -> alternativeMethod(id, quantity)
+                () -> itemService.findById(id, quantity), e -> alternativeMethod(id, quantity, e)
         );
     }
 
-    public Item alternativeMethod(Long id, Integer quantity) {
+    public Item alternativeMethod(Long id, Integer quantity, Throwable e) {
+        logger.info(e.getMessage());
         Product product = Product.builder().id(id).name("Camera Sony").price(500.00).build();
         return Item.builder().quantity(quantity).product(product).build();
     }
