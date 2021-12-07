@@ -5,80 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_circuitbreaker_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_core_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_projectreactor_addons_reactor_extra_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_0_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_match_0_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_9_0_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_assertj_assertj_core_3_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_68.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_68.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_mockito_mockito_core_3_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_3_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_cache_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_bootstrap_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_5_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_aop_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_beans_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_context_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_context_support_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_core_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_expression_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_jcl_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_test_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_web_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_yaml_snakeyaml_1_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_afterburner_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_5_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test~1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../service-product/src/main/java/api/microservices/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-product/src/main/java/api/microservices/product/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

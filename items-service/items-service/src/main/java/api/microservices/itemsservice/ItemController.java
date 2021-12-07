@@ -18,6 +18,7 @@ import java.util.List;
 public class ItemController {
 
     private final Logger logger = LoggerFactory.getLogger(ItemController.class);
+
     @Autowired
     private CircuitBreakerFactory circuitBreakerFactory;
 

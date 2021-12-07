@@ -53,10 +53,10 @@ public class ProductController {
     @GetMapping(value="/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable("id") Long id) throws InterruptedException {
 
-        if(id.equals(10L)){
+        if(id.equals(2L)){
             throw new IllegalStateException("Product no found");
         }
-        if(id.equals(7L)){
+        if(id.equals(3L)){
             TimeUnit.SECONDS.sleep(5L);
         }
         Product product = productService.getProduct(id);
