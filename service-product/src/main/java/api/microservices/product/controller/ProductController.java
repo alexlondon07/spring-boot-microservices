@@ -47,10 +47,7 @@ public class ProductController {
 
     @GetMapping("/list")
     public List<Product> getList(){
-        return productService.listAllProduct().stream().map( product -> {
-            product.setPort(port);
-            return product;
-        }).collect(Collectors.toList());
+        return productService.listAllProduct().stream().peek(product -> product.setPort(port)).collect(Collectors.toList());
     }
 
     @GetMapping(value="/{id}")
