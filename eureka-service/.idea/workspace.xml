@@ -6,20 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_afterburner_2_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_circuitbreaker_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_timelimiter_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_match_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_circuitbreaker_resilience4j_1_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_circuitbreaker_resilience4j_1_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test~1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-product/src/main/java/api/microservices/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-product/src/main/java/api/microservices/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

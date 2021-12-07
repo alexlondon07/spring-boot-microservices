@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-circularbuffer:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-circularbuffer/1.7.0/563cbd001cd384d12cfc862fe1eab2f61d09ec87/resilience4j-circularbuffer-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-circularbuffer/1.7.0/deda03ae0f2e79b789374d4fcff26bf86904bc17/resilience4j-circularbuffer-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

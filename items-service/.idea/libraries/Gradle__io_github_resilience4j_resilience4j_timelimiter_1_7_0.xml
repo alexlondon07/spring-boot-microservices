@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-timelimiter:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-timelimiter/1.7.0/9c5d5e226853174cffd86325bcc7e463964b71e6/resilience4j-timelimiter-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-timelimiter/1.7.0/37309a4faf41b672471049e3f9f3d4e9b18b5544/resilience4j-timelimiter-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

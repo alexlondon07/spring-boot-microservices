@@ -3,6 +3,7 @@ package api.microservices.itemsservice;
 import api.microservices.itemsservice.model.Item;
 import api.microservices.itemsservice.model.Product;
 import api.microservices.itemsservice.service.ItemService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,12 +35,17 @@ public class ItemController {
         return itemService.findAll();
     }
 
-    // @HystrixCommand(fallbackMethod = "alternativeMethod")
     @GetMapping("/view/{id}/quantity/{quantity}")
     public Item getDetail(@PathVariable Long id, @PathVariable Integer quantity){
         return circuitBreakerFactory.create("items").run(
                 () -> itemService.findById(id, quantity), e -> alternativeMethod(id, quantity, e)
         );
+    }
+
+    @CircuitBreaker(name="items", fallbackMethod = "alternativeMethod")
+    @GetMapping("/view2/{id}/quantity/{quantity}")
+    public Item getDetail2(@PathVariable Long id, @PathVariable Integer quantity){
+        return itemService.findById(id, quantity);
     }
 
     public Item alternativeMethod(Long id, Integer quantity, Throwable e) {

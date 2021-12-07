@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-circuitbreaker:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-circuitbreaker/1.7.0/6ac048c1e1b41d86cadefa00e32e7939e1f7c1e1/resilience4j-circuitbreaker-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-circuitbreaker/1.7.0/4598339a77081e2462bb330c242543b10708a186/resilience4j-circuitbreaker-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

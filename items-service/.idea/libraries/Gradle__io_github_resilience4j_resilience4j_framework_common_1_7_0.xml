@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-framework-common:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-framework-common/1.7.0/33447eef7cfa553bc37cd328693fb456c146f752/resilience4j-framework-common-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-framework-common/1.7.0/4ed1d067ef292ff1a741942955718597322d7f01/resilience4j-framework-common-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
