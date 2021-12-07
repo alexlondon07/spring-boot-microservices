@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
