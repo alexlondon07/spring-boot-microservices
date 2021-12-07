@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_circuitbreaker_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_core_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_github_resilience4j_resilience4j_timelimiter_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_0_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__io_vavr_vavr_match_0_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_circuitbreaker_resilience4j_1_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_circuitbreaker_resilience4j_1_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.main~1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/.idea/modules/items-service.items-service.test~1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../items-service/items-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/application.yml" afterDir="false" />
     </list>
