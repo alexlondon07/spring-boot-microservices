@@ -1,3 +1,24 @@
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        slidingWindowSize: 6
+        failureRateThreshold: 50
+        waitDurationInOpenState: 20s
+        permittedNumberOfCallsInHalfOpenState: 4
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: 2s
+      instances:
+        products:
+          base-config: default
+  timelimiter:
+    configs:
+      default:
+        timeout-duration: 2s
+      instances:
+        products:
+          base-config: default
+
 server:
   port: 9090
 
@@ -17,6 +38,11 @@ spring:
         predicates:
           - Path=/products/**
         filters:
+          - name: CircuitBreaker
+            args:
+              name: products
+              statusCodes: 500
+              fallbackUri: forward:/items/view3/1/quantity/45
           - ExampleCookie=Hello my custom message, Alexlondon07, user
       - id: itemsModule
         uri: lb://ITEMS-SERVICE
