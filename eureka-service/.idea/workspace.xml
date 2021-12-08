@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-data/customer-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-data/gateway-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-data/product-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-data/registry-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-data/shopping-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/config-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/src/main/java/api/microservices/configservice/ConfigServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/config-service/config-service/src/test/java/api/microservices/configservice/ConfigServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/ShoppingServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/client/CustomerClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/client/CustomerHystrixFallbackFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/client/ProductClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/controller/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/controller/InvoiceRest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/entity/Invoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/entity/InvoiceItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/model/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/model/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/repository/InvoiceItemsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/repository/InvoiceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/service/InvoiceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/java/api/microservices/shopping/service/InvoiceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YOUTUBE/shopping-service/src/test/java/api/microservices/shopping/ShoppingServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
