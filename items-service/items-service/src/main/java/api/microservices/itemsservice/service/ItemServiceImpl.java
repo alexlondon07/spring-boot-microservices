@@ -29,4 +29,19 @@ public class ItemServiceImpl implements ItemService {
         Product product =  restTemplate.getForObject("http://localhost:8001/products/{id}", Product.class, pathVariables);
         return new Item(product, quantity) ;
     }
+
+    @Override
+    public Product save(Product product) {
+        return null;
+    }
+
+    @Override
+    public Product update(Product product, Long id) {
+        return null;
+    }
+
+    @Override
+    public void delete(Long id) {
+
+    }
 }

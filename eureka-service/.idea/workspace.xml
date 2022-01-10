@@ -7,6 +7,10 @@
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/clients/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/clients/ProductFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemServiceFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/java/api/microservices/itemsservice/service/ItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../items-service/items-service/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

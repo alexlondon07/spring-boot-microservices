@@ -3,6 +3,7 @@ package api.microservices.itemsservice.service;
 
 import api.microservices.itemsservice.clients.ProductFeignClient;
 import api.microservices.itemsservice.model.Item;
+import api.microservices.itemsservice.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -25,5 +26,20 @@ public class ItemServiceFeign implements ItemService {
     @Override
     public Item findById(Long id, Integer quantity) {
         return new Item(clientForeign.getProduct(id), quantity);
+    }
+
+    @Override
+    public Product save(Product product) {
+        return clientForeign.save(product);
+    }
+
+    @Override
+    public Product update(Product product, Long id) {
+        return clientForeign.update(product, id);
+    }
+
+    @Override
+    public void delete(Long id) {
+        clientForeign.delete(id);
     }
 }

@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.circuitbreaker.CircuitBreakerFactory;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-
+@RefreshScope
 @RestController
 @RequestMapping(value = "/items")
 public class ItemController {
@@ -93,6 +94,24 @@ public class ItemController {
         logger.info(e.getMessage());
         Product product = Product.builder().id(id).name("Camera Sony v2").price(800.00).build();
         return CompletableFuture.supplyAsync( ()->Item.builder().quantity(quantity).product(product).build() ) ;
+    }
+
+    @PostMapping("/create")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Product createProduct(@RequestBody Product product){
+        return itemService.save(product);
+    }
+
+    @PutMapping("/edit/{id}")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Product updateProduct(@RequestBody Product product, @PathVariable Long id){
+        return itemService.update(product, id);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteProduct(@PathVariable Long id){
+        itemService.delete(id);
     }
 }
 
