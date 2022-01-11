@@ -17,6 +17,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -98,7 +99,7 @@ public class ItemController {
 
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
-    public Product createProduct(@RequestBody Product product){
+    public Product createProduct(@RequestBody @Valid Product product){
         return itemService.save(product);
     }
 
