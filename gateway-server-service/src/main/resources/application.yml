@@ -52,3 +52,7 @@ spring:
           - AddRequestHeader=token-request, 123456
           - AddResponseHeader=token-response, 12345678
           - AddRequestParameter=name, Alexlondon07
+      - id: userModule
+        uri: lb://USERS-SERVICE
+        predicates:
+          - Path=/users/**

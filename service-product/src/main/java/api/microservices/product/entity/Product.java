@@ -10,7 +10,7 @@ import javax.validation.constraints.Positive;
 import java.util.Date;
 
 @Entity
-@Table(name="tbl_products")
+@Table(name="products")
 @Getter
 @Setter
 @AllArgsConstructor
