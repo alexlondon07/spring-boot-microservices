@@ -1,4 +1,4 @@
-package api.microservices.usersservice.domains.models;
+package api.microservices.userscommons.models.entity;
 
 
 import lombok.AllArgsConstructor;

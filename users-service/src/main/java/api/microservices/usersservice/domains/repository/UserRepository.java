@@ -1,6 +1,6 @@
 package api.microservices.usersservice.domains.repository;
 
-import api.microservices.usersservice.domains.models.User;
+import api.microservices.userscommons.models.entity.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

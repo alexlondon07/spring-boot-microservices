@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../users-commons/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/UsersCommonsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-commons/src/test/java/api/microservices/userscommons/UsersCommonsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/configuration/RepositoryConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../users-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/UsersServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/UsersServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/domains/models/Rol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/domains/models/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/domains/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../users-service/src/main/java/api/microservices/usersservice/domains/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
