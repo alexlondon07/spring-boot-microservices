@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../oauth-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/OauthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/clients/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/test/java/api/microservices/oauthservice/OauthServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/AuthorizationServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
