@@ -1,6 +1,8 @@
 package api.microservices.oauthservice.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -13,6 +15,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
+@RefreshScope
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
@@ -21,33 +24,23 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     private BCryptPasswordEncoder passwordEncoder;
 
     @Autowired
+    @Qualifier("authenticationManager")
     private AuthenticationManager authenticationManager;
-
-    public AuthorizationServerConfig() {
-        super();
-    }
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        security.tokenKeyAccess("permitAll()")
-                .checkTokenAccess("isAuthenticated()");
+        security.tokenKeyAccess("permitAll()") // Acceso total a cualquier usuario poder autenticarse
+                .checkTokenAccess("isAuthenticated()"); // Validar el token solo clientes autenticados
     }
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.inMemory().withClient("frontentAppAngular")
+        clients.inMemory().withClient("angularapp")
                 .secret(passwordEncoder.encode("12345"))
-                .scopes("read", "write")
-                .authorities("password", "refresh_token")
-                .accessTokenValiditySeconds(3600)
-                .refreshTokenValiditySeconds(3600)
-                .and()
-                .withClient("frontentAppReact")
-                .secret(passwordEncoder.encode("12345"))
-                .scopes("read", "write")
-                .authorities("password", "refresh_token")
-                .accessTokenValiditySeconds(3600)
-                .refreshTokenValiditySeconds(3600);
+                .scopes("read", "write") // lo que puede hacer nuestra app
+                .authorizedGrantTypes("password", "refresh_token") // tipo de permiso
+                .accessTokenValiditySeconds(3600) // 1 hora tiempo a caducar
+                .refreshTokenValiditySeconds(3600); // 1 hora tiempo de expiracion de refresh token
     }
 
     @Override
@@ -65,7 +58,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Bean
     public JwtAccessTokenConverter accessTokenConverter(){
         JwtAccessTokenConverter tokenConverter = new JwtAccessTokenConverter();
-        tokenConverter.setSigningKey("developercode2022_secret");
+        tokenConverter.setSigningKey("developerCode2022Secret");// Firmamos el token
         return tokenConverter;
 
     }

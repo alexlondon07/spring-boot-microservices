@@ -7,7 +7,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Configuration
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -15,15 +14,13 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userService;
 
-    @Bean
-    public BCryptPasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-    }
+    @Autowired
+    private AppConfig config;
 
     @Override
     @Autowired
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
-       auth.userDetailsService(this.userService).passwordEncoder(passwordEncoder());
+       auth.userDetailsService(this.userService).passwordEncoder(config.bCryptPasswordEncoder());
     }
 
     @Override
