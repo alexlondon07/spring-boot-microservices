@@ -17,7 +17,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Service
-public class UserService implements UserDetailsService {
+public class UserService implements IUserService, UserDetailsService {
 
     private final Logger logger = LoggerFactory.getLogger(UserService.class);
     @Autowired
@@ -37,5 +37,10 @@ public class UserService implements UserDetailsService {
 
         return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(),
                 user.getEnabled(), true, true, true, authorities);
+    }
+
+    @Override
+    public User findByUsername(String username) {
+
     }
 }

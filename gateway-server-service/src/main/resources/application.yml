@@ -56,3 +56,10 @@ spring:
         uri: lb://USERS-SERVICE
         predicates:
           - Path=/users/**
+      - id: oauthModule
+        uri: lb://OAUTH-SERVICE
+        predicates:
+          - Path=/security/**
+        filters:
+          - RemoveRequestHeader=Cookie
+
