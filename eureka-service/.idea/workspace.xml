@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/clients/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/clients/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
