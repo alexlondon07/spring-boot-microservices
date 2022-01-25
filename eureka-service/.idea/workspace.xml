@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/InfoAditionalToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth-service/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oauth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zuul-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-service/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zuul-service/zuul-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-service/zuul-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/SpringSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
