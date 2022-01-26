@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5a262ff8-0279-42fe-bd2c-662f9dee86d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/clients/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/clients/UserFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth-service/src/main/java/api/microservices/oauthservice/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../users-commons/src/main/java/api/microservices/userscommons/models/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-server-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-server-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

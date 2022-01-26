@@ -30,6 +30,8 @@ eureka:
 spring:
   application:
     name: gateway-server-service
+  config:
+    import: "optional:configserver:"
   cloud:
     gateway:
       routes:
@@ -60,6 +62,8 @@ spring:
         uri: lb://OAUTH-SERVICE
         predicates:
           - Path=/security/**
-        filters:
-          - RemoveRequestHeader=Cookie
+      - id: usersModule
+        uri: lb://USERS-SERVICE
+        predicates:
+          - Path=/users/**
 
