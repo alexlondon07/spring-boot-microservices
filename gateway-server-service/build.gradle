@@ -27,8 +27,8 @@ dependencies {
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '3.1.0'
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '3.1.0'
-	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
-	implementation group: 'org.springframework.security', name: 'spring-security-core', version: '5.6.1'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.6.3'
 
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
 	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.2',
