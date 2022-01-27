@@ -19,6 +19,7 @@ public class SpringSecurityConfig {
         return httpSecurity.authorizeExchange()
                 .pathMatchers("security/oauth/**").permitAll()
                 .pathMatchers(HttpMethod.GET, "/products", "/users", "items/list" ).permitAll()
+                .pathMatchers(HttpMethod.GET, "/users/{id}").permitAll()
                 .anyExchange().authenticated()
                 .and().addFilterAfter(jwtAuthenticationFilter, SecurityWebFiltersOrder.AUTHENTICATION)
                 .csrf().disable()
