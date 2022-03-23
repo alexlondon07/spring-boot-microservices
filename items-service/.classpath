@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="items-service/src/main/java"/>
-	<classpathentry kind="src" path="items-service/src/test/java"/>
-	<classpathentry kind="lib" path="items-service/gradle/wrapper/gradle-wrapper.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="items-service/build/classes/java/main"/>
-</classpath>

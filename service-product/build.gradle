@@ -23,6 +23,15 @@ ext {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: '3.1.0'
+
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-zipkin', version: '3.1.0'
+
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-amqp
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.6.0'
+
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-client
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '2.2.8.RELEASE'
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap

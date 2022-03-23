@@ -25,8 +25,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-
+      defaultZone: http://eureka-service:8761/eureka
 spring:
   application:
     name: gateway-server-service

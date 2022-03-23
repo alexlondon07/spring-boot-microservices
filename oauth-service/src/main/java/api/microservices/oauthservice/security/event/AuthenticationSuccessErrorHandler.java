@@ -2,6 +2,7 @@ package api.microservices.oauthservice.security.event;
 
 import api.microservices.oauthservice.services.IUserService;
 import api.microservices.userscommons.models.entity.User;
+import brave.Tracer;
 import feign.FeignException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +21,9 @@ public class AuthenticationSuccessErrorHandler  implements AuthenticationEventPu
 
     @Autowired
     private IUserService userService;
+
+    @Autowired
+    private Tracer tracer;
 
     @Override
     public void publishAuthenticationSuccess(Authentication authentication) {
@@ -44,17 +48,26 @@ public class AuthenticationSuccessErrorHandler  implements AuthenticationEventPu
         log.error(message);
 
         try {
+            StringBuilder errors = new StringBuilder();
+            errors.append(message);
+
             User user =  userService.findByUsername(authentication.getName());
             if (user.getAttempts() == null){
                 user.setAttempts(0);
             }
             log.info("Intento actual es  " , user.getAttempts());
             user.setAttempts(user.getAttempts() + 1);
+
+            errors.append("Intento actual es  " + user.getAttempts());
+
             if(user.getAttempts() >= 3){
-                log.info("El usuario %s es desabilitadoi por maximo intentos " , user.getUsername());
+                String errorMaxAttempts = "El usuario %s es desabilitadoi por maximo intentos " + user.getUsername();
+                log.info(errorMaxAttempts);
                 user.setEnabled(false);
             }
             userService.update(user, user.getId());
+
+            tracer.currentSpan().tag("error.mensaje", errors.toString());
 
         }catch (FeignException e){
             log.error("El usuario  %s no existe en el sistema", authentication.getName());
